@@ -1,0 +1,206 @@
+header {
+    background-color: #0169fd;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--bs-tertiary-bg);
+}
+
+.btn {
+    color: white;
+    width: 148px;
+}
+
+.hero {
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding: 90px 0;
+}
+
+.hero__title {
+    font-size: 64px;
+    line-height: 79px;
+    font-weight: 600;
+    color: white;
+}
+
+.row {
+    position: absolute;
+    bottom: -20px;
+}
+
+.cards {
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 70px;
+}
+
+.about__card {
+    max-width: 625px;
+    background-color: #0169fd;
+    border-radius: 5px;
+    padding: 70px 286px 70px 30px;
+    position: relative;
+}
+
+.about__card img {
+    position: absolute;
+    bottom: 0;
+    max-width: 297px;
+    max-height: 377px;
+    right: 0;
+}
+
+.about__card p {
+    color: white;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 600;
+    max-width: 309px;
+}
+
+footer {
+    padding: 40px 0;
+    background-color: #0169fd;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    font-size: 30px;
+    line-height: 35.8px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__menu,
+.footer__tel,
+.footer__social {
+    list-style: none;
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.footer__menu-link {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+
+    .hero {
+        max-width: 600px;
+    }
+
+    .hero__title {
+        font-size: 52px;
+        line-height: 64px;
+    }
+
+    .about__card {
+        padding: 50px 180px 50px 30px;
+    }
+
+    .about__card img {
+        max-width: 200px;
+    }
+
+    .about__card p {
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        max-width: 400px;
+    }
+
+    .hero__title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .footer__logo {
+        font-size: 24px;
+    }
+
+    .footer__menu,
+    .footer__tel {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        max-width: 300px;
+    }
+
+    .hero__title {
+        font-size: 36px;
+        line-height: 39px;
+    }
+
+    .buttons {
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    .about__card {
+        padding: 40px 150px 40px 20px;
+    }
+
+    .about__card img {
+        max-width: 170px;
+    }
+
+    .about__card p {
+        max-width: 220px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .footer {
+        flex-direction: column;
+        row-gap: 25px;
+        text-align: center !important;
+    }
+}
